@@ -116,6 +116,21 @@
     ]
   },
   {
+    "title":"ANIME",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Video Streaming",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/specialzone.html"
+        ]
+      }
+    ]
+  },
+  {
     "title":"LAGU",
     "drawable":"",
     "submenu":"",
