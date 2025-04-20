@@ -56,6 +56,20 @@
       }]
   },
   {
+    "title":"WAKTU SOLAT",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Koleksi Lagu",
+        "provider":"webview",
+        "arguments":[
+          "https://www.e-solat.gov.my/"
+        ]
+      }]
+  },
+  {
     "title":"MAJLIS KAHWIN",
     "drawable":"",
     "submenu":"ALBUM GAMBAR",
