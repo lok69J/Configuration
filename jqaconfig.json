@@ -1,1 +1,268 @@
+[
+  {
+    "title":"WELCOME ON BOARD",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Selamat Datang",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/index.html"
+        ]
+      }]
+  },
+  {
+    "title":"AL-QURAN",
+    "drawable":"",
+    "submenu":"ISLAMIC ZONE",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Koleksi Lagu",
+        "provider":"webview",
+        "arguments":[
+          "https://tanzil.net/"
+        ]
+      }]
+  },
+{
+    "title":"AUDIO BACAAN DAN TERJEMAHAN",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Koleksi Lagu",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/quranofflineaudio.html"
+        ]
+      }]
+  },
+{
+    "title":"CERAMAH RINGKAS",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Koleksi Lagu",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/ceragrig.html"
+        ]
+      }]
+  },
+  {
+    "title":"WAKTU SOLAT",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Koleksi Lagu",
+        "provider":"webview",
+        "arguments":[
+          "https://www.e-solat.gov.my/"
+        ]
+      }]
+  },
+  {
+    "title":"MAJLIS KAHWIN",
+    "drawable":"",
+    "submenu":"ALBUM GAMBAR",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Video Streaming",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/albino.html"
+        ]
+      }
+    ]
+  },
+ {
+    "title":"RANDOM",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Video Streaming",
+        "provider":"stream",
+        "arguments":[
+          "https://raw.githubusercontent.com/lok69J/marhaen/refs/heads/main/marhaen.m3u"
+        ]
+      }
+    ]
+  },
+ {
+    "title":"HARI RAYA",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Video Streaming",
+        "provider":"stream",
+        "arguments":[
+          "https://raw.githubusercontent.com/TVGarden/tv-garden-channel-list/refs/heads/main/channels/raw/categories/cooking.json"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"MOVIE",
+    "drawable":"",
+    "submenu":"MEDIA",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Video Streaming",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/specialzone.html"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"ANIME",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Video Streaming",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/specialzone.html"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"LAGU",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Video Streaming",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/myapkartmedia.html"
+        ]
+      }
+    ]
+  },
+  {
+   "title":"OP TV",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Video Streaming",
+        "provider":"stream",
+        "arguments":[
+          "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f7790b3ed0c88000720b241/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus"
+        ]
+      }
+    ]
+  },
+  {
+   "title":"BERITA SEMASA",
+    "drawable":"",
+    "submenu":"BAHAN BACAAN",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/library.html"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"SERAM",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"webview",
+        "arguments":[
+          "https://canticumarchivum.blogspot.com/p/kidszonemainpage.html"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"HitsMelayu-NonStop",
+    "drawable":"",
+    "submenu":"RADIO ONLINE",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"radio",
+        "arguments":[
+          "http://node-17.zeno.fm:80/s93mzhh7yf9uv"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"sonicFM",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"radio",
+        "arguments":[
+          "http://node-11.zeno.fm:80/d6b1dwmbyf9uv"
+ ]
+      }
+    ]
+  },
+  {
+    "title":"daBEZT",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"radio",
+        "arguments":[
+          "http://node-10.zeno.fm:80/6cf3bsmbyf9uv"
+ ]
+      }
+    ]
+  },
+  {
+    "title":"ANNOUNCEMENT",
+    "drawable":"",
+    "submenu":"MEDIA CONFERENCE",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/announcement.html"
+        ]
+      }
+    ]
+  }
+]
 
