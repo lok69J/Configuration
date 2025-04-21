@@ -107,9 +107,9 @@
     "tabs":[
       {
         "title":"Video Streaming",
-        "provider":"webview",
+        "provider":"stream",
         "arguments":[
-          "https://canticumarchivum.blogspot.com/p/main-page.html"
+          "https://raw.githubusercontent.com/TVGarden/tv-garden-channel-list/refs/heads/main/channels/raw/categories/cooking.json"
         ]
       }
     ]
