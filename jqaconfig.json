@@ -115,9 +115,24 @@
     ]
   },
   {
-    "title":"MOVIE",
+    "title":"WORLD TV",
     "drawable":"",
     "submenu":"MEDIA",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Video Streaming",
+        "provider":"webview",
+        "arguments":[
+          "https://tv.garden/"
+        ]
+      }
+    ]
+  },
+   {
+    "title":"MOVIE",
+    "drawable":"",
+    "submenu":"",
     "iap":false,
     "tabs":[
       {
