@@ -124,7 +124,7 @@
         "title":"Video Streaming",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/specialzone.html"
+          "https://mytvforview4u.blogspot.com/p/moviefrontpage.html"
         ]
       }
     ]
