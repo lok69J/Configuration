@@ -23,7 +23,7 @@
         "title":"Koleksi Lagu",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/kuliahagama.html"
+          "https://tanzil.net/"
         ]
       }]
   },
@@ -37,7 +37,7 @@
         "title":"Koleksi Lagu",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/kuliahagama.html"
+          "file:///android_asset/www/quranofflineaudio.html"
         ]
       }]
   },
@@ -51,7 +51,7 @@
         "title":"Koleksi Lagu",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/kuliahagama.html"
+          "file:///android_asset/www/ceragrig.html"
         ]
       }]
   },
