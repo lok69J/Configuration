@@ -79,7 +79,7 @@
         "title":"Video Streaming",
         "provider":"webview",
         "arguments":[
-          "https://canticumarchivum.blogspot.com/p/main-page.html"
+          "file:///android_asset/www/albino.html"
         ]
       }
     ]
