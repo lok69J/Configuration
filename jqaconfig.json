@@ -92,7 +92,7 @@
     "tabs":[
       {
         "title":"Video Streaming",
-        "provider":"stream",
+        "provider":"radio",
         "arguments":[
           "https://raw.githubusercontent.com/lok69J/marhaen/refs/heads/main/marhaen.m3u"
         ]
@@ -124,7 +124,7 @@
         "title":"Video Streaming",
         "provider":"tv",
         "arguments":[
-          "https://raw.githubusercontent.com/TVGarden/tv-garden-channel-list/refs/heads/main/channels/raw/categories/cooking.json"
+          "https://tv.garden/"
         ]
       }
     ]
