@@ -122,7 +122,7 @@
     "tabs":[
       {
         "title":"Video Streaming",
-        "provider":"tv",
+        "provider":"webview",
         "arguments":[
           "https://tv.garden/"
         ]
