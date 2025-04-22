@@ -122,9 +122,9 @@
     "tabs":[
       {
         "title":"Video Streaming",
-        "provider":"webview",
+        "provider":"tv",
         "arguments":[
-          "https://tv.garden/"
+          "https://raw.githubusercontent.com/TVGarden/tv-garden-channel-list/refs/heads/main/channels/raw/categories/cooking.json"
         ]
       }
     ]
