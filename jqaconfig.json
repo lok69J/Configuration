@@ -72,7 +72,7 @@
   {
     "title":"ALBUM GAMBAR",
     "drawable":"",
-    "submenu":"",
+    "submenu":"MEDIA",
     "iap":false,
     "tabs":[
       {
@@ -87,7 +87,7 @@
   {
     "title":"WORLD TV",
     "drawable":"",
-    "submenu":"MEDIA",
+    "submenu":"",
     "iap":false,
     "tabs":[
       {
