@@ -70,9 +70,9 @@
       }]
   },
   {
-    "title":"MAJLIS KAHWIN",
+    "title":"ALBUM GAMBAR",
     "drawable":"",
-    "submenu":"ALBUM GAMBAR",
+    "submenu":"",
     "iap":false,
     "tabs":[
       {
@@ -80,36 +80,6 @@
         "provider":"webview",
         "arguments":[
           "file:///android_asset/www/wedwed.html"
-        ]
-      }
-    ]
-  },
- {
-    "title":"RANDOM",
-    "drawable":"",
-    "submenu":"",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Video Streaming",
-        "provider":"radio",
-        "arguments":[
-          "file:///android_asset/www/random.html"
-        ]
-      }
-    ]
-  },
- {
-    "title":"HARI RAYA",
-    "drawable":"",
-    "submenu":"",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Video Streaming",
-        "provider":"stream",
-        "arguments":[
-          "file:///android_asset/www/celebration.html"
         ]
       }
     ]
