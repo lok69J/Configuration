@@ -79,7 +79,7 @@
         "title":"Video Streaming",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/wedwed.html"
+          "file:///android_asset/www/algamvid.html"
         ]
       }
     ]
