@@ -51,7 +51,7 @@
         "title":"Koleksi Lagu",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/htmlquranoffline1/index.html"
+          "file:///android_asset/www/ceragrig.html"
         ]
       }]
   },
@@ -79,7 +79,7 @@
         "title":"Video Streaming",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/albino.html"
+          "file:///android_asset/www/wedwed.html"
         ]
       }
     ]
@@ -94,7 +94,7 @@
         "title":"Video Streaming",
         "provider":"radio",
         "arguments":[
-          "https://raw.githubusercontent.com/lok69J/marhaen/refs/heads/main/marhaen.m3u"
+          "file:///android_asset/www/random.html"
         ]
       }
     ]
@@ -109,7 +109,7 @@
         "title":"Video Streaming",
         "provider":"stream",
         "arguments":[
-          "https://raw.githubusercontent.com/TVGarden/tv-garden-channel-list/refs/heads/main/channels/raw/categories/cooking.json"
+          "file:///android_asset/www/celebration.html"
         ]
       }
     ]
@@ -124,7 +124,7 @@
         "title":"Video Streaming",
         "provider":"webview",
         "arguments":[
-          "https://tv.garden/"
+          "https://wed4dyear.blogspot.com/p/apkartmedia-body-height-900px.html"
         ]
       }
     ]
