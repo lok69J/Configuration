@@ -23,7 +23,7 @@
         "title":"Koleksi Lagu",
         "provider":"webview",
         "arguments":[
-          "https://tanzil.net/"
+          "file:///android_asset/www/readquran.html"
         ]
       }]
   },
