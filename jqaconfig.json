@@ -80,7 +80,7 @@
         "title":"",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/celebration.html"
+          "https://photos.app.goo.gl/Vh7a5wzBGm8hFr3Q8"
         ]
       }
     ]
