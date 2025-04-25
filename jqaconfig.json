@@ -2,11 +2,11 @@
   {
     "title":"WELCOME!",
     "drawable":"",
-    "submenu":"entah",
+    "submenu":"",
     "iap":false,
     "tabs":[
       {
-        "title":"Selamat Datang",
+        "title":"",
         "provider":"webview",
         "arguments":[
           "file:///android_asset/www/index.html"
@@ -20,7 +20,7 @@
     "iap":false,
     "tabs":[
       {
-        "title":"Koleksi Lagu",
+        "title":"",
         "provider":"webview",
         "arguments":[
           "file:///android_asset/www/readquran.html"
@@ -34,24 +34,10 @@
     "iap":false,
     "tabs":[
       {
-        "title":"Koleksi Lagu",
+        "title":"",
         "provider":"webview",
         "arguments":[
           "file:///android_asset/www/quranofflineaudio.html"
-        ]
-      }]
-  },
-{
-    "title":"CERAMAH RINGKAS",
-    "drawable":"",
-    "submenu":"",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Koleksi Lagu",
-        "provider":"webview",
-        "arguments":[
-          "file:///android_asset/www/ceragrig.html"
         ]
       }]
   },
@@ -70,13 +56,28 @@
       }]
   },
   {
-    "title":"ALBUM GAMBAR",
+    "title":"MAJLIS KAHWIN",
     "drawable":"",
-    "submenu":"MEDIA",
+    "submenu":"ALBUM GAMBAR",
     "iap":false,
     "tabs":[
       {
-        "title":"Video Streaming",
+        "title":"",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/algamvid.html"
+        ]
+      }
+    ]
+  },
+    {
+    "title":"HARI RAYA",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
         "provider":"webview",
         "arguments":[
           "file:///android_asset/www/algamvid.html"
@@ -85,16 +86,16 @@
     ]
   },
   {
-    "title":"WORLD TV",
+    "title":"RANDOM",
     "drawable":"",
     "submenu":"",
     "iap":false,
     "tabs":[
       {
-        "title":"Video Streaming",
+        "title":"",
         "provider":"webview",
         "arguments":[
-          "https://wed4dyear.blogspot.com/p/apkartmedia-body-height-900px.html"
+          "file:///android_asset/www/algamvid.html"
         ]
       }
     ]
@@ -102,7 +103,7 @@
    {
     "title":"MOVIE",
     "drawable":"",
-    "submenu":"",
+    "submenu":"MEDIA",
     "iap":false,
     "tabs":[
       {
@@ -155,36 +156,6 @@
         "provider":"stream",
         "arguments":[
           "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f7790b3ed0c88000720b241/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus"
-        ]
-      }
-    ]
-  },
-  {
-   "title":"BERITA SEMASA",
-    "drawable":"",
-    "submenu":"BAHAN BACAAN",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Radio Online",
-        "provider":"webview",
-        "arguments":[
-          "file:///android_asset/www/library.html"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"SERAM",
-    "drawable":"",
-    "submenu":"",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Radio Online",
-        "provider":"webview",
-        "arguments":[
-          "https://canticumarchivum.blogspot.com/p/kidszonemainpage.html"
         ]
       }
     ]
