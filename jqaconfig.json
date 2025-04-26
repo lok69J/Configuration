@@ -80,7 +80,7 @@
         "title":"Video Streaming",
         "provider":"webview",
         "arguments":[
-    "file:///android_asset/www/animo.html""
+    "file:///android_asset/www/animo.html"
         ]
       }
     ]
