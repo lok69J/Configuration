@@ -55,6 +55,20 @@
         ]
       }]
   },
+{
+    "title":"WAKTU SOLAT2",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Koleksi Lagu",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/jaiwaktusolat/index.html"
+        ]
+      }]
+  },
    {
     "title":"MOVIE",
     "drawable":"",
