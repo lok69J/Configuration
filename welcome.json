@@ -1,0 +1,16 @@
+[
+  {
+    "title":"WELCOME!",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/index.html"
+        ]
+      }]
+  },
+]
