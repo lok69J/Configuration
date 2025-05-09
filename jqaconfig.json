@@ -161,21 +161,6 @@
     ]
   },
   {
-    "title":"MarhaenTV",
-    "drawable":"",
-    "submenu":"",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Radio Online",
-        "provider":"url",
-        "arguments":[
-          "com.marhaentv.apks"
- ]
-      }
-    ]
-  },
-  {
     "title":"ANNOUNCEMENT",
     "drawable":"",
     "submenu":"MEDIA CONFERENCE",
