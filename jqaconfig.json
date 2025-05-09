@@ -170,7 +170,7 @@
         "title":"Radio Online",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/announcement.html"
+          "file:///android_asset/www/Games/jaiqachatroom.html"
         ]
       }
     ]
