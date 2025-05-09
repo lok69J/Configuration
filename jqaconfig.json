@@ -160,6 +160,21 @@
       }
     ]
   },
+{
+    "title":"MarhaenTV",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"host",
+        "arguments":[
+          "com.marhaentv.apks"
+ ]
+      }
+    ]
+  },
   {
     "title":"ANNOUNCEMENT",
     "drawable":"",
