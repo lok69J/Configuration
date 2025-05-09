@@ -9,7 +9,7 @@
         "title":"",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/index.html"
+          "file:///android_asset/www/welcomepopup.html"
         ]
       }]
   },
