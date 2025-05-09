@@ -170,7 +170,7 @@
         "title":"Radio Online",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/1.html"
+          "file:///android_asset/www/1.html"
  ]
       }
     ]
