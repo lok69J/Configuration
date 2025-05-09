@@ -170,13 +170,13 @@
         "title":"Radio Online",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/1.html"
+          "file:///android_asset/www/Games/blockgame.html"
  ]
       }
     ]
   },
    {
-    "title":"Ninjai",
+    "title":"Ninja",
     "drawable":"",
     "submenu":"",
     "iap":false,
@@ -185,7 +185,67 @@
         "title":"Radio Online",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/2.html"
+          "file:///android_asset/www/Games/ninjai.html"
+ ]
+      }
+    ]
+  },
+   {
+    "title":"Checkers",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/Games/checkers.html"
+ ]
+      }
+    ]
+  },
+   {
+    "title":"Chess",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/Games/chess.html"
+ ]
+      }
+    ]
+  },
+  {
+    "title":"SlideNum",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/Games/slidingnumber.html"
+ ]
+      }
+    ]
+  },
+  {
+    "title":"Chat",
+    "drawable":"",
+    "submenu":"MEDIA CONFERENCE",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/Games/chess.html"
  ]
       }
     ]
@@ -193,7 +253,7 @@
   {
     "title":"ANNOUNCEMENT",
     "drawable":"",
-    "submenu":"MEDIA CONFERENCE",
+    "submenu":"",
     "iap":false,
     "tabs":[
       {
