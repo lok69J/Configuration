@@ -132,7 +132,7 @@
   },
    {
     "title":"Chess",
-    "drawable":"",
+    "drawable":"GAMES",
     "submenu":"",
     "iap":false,
     "tabs":[
