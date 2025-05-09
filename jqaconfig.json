@@ -160,6 +160,36 @@
       }
     ]
   },
+   {
+    "title":"The Block",
+    "drawable":"",
+    "submenu":"GAMES",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/1.html"
+ ]
+      }
+    ]
+  },
+   {
+    "title":"Ninjai",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/2.html"
+ ]
+      }
+    ]
+  },
   {
     "title":"ANNOUNCEMENT",
     "drawable":"",
