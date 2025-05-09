@@ -71,36 +71,6 @@
     ]
   },
   {
-    "title":"ANIME",
-    "drawable":"",
-    "submenu":"",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Video Streaming",
-        "provider":"webview",
-        "arguments":[
-    "file:///android_asset/www/animo.html"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"LAGU",
-    "drawable":"",
-    "submenu":"",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Video Streaming",
-        "provider":"webview",
-        "arguments":[
-          "file:///android_asset/www/MyMp3.html"
-        ]
-      }
-    ]
-  },
-  {
    "title":"OP TV",
     "drawable":"",
     "submenu":"",
@@ -161,51 +131,6 @@
     ]
   },
    {
-    "title":"The Block",
-    "drawable":"",
-    "submenu":"GAMES",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Radio Online",
-        "provider":"webview",
-        "arguments":[
-          "file:///android_asset/www/Games/blockgame.html"
- ]
-      }
-    ]
-  },
-   {
-    "title":"Ninja",
-    "drawable":"",
-    "submenu":"",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Radio Online",
-        "provider":"webview",
-        "arguments":[
-          "file:///android_asset/www/Games/ninjai.html"
- ]
-      }
-    ]
-  },
-   {
-    "title":"Checkers",
-    "drawable":"",
-    "submenu":"",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Radio Online",
-        "provider":"webview",
-        "arguments":[
-          "file:///android_asset/www/Games/checkers.html"
- ]
-      }
-    ]
-  },
-   {
     "title":"Chess",
     "drawable":"",
     "submenu":"",
@@ -239,21 +164,6 @@
     "title":"Chat",
     "drawable":"",
     "submenu":"MEDIA CONFERENCE",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Radio Online",
-        "provider":"webview",
-        "arguments":[
-          "file:///android_asset/www/Games/jaiqachatroom.html"
- ]
-      }
-    ]
-  },
-  {
-    "title":"ANNOUNCEMENT",
-    "drawable":"",
-    "submenu":"",
     "iap":false,
     "tabs":[
       {
