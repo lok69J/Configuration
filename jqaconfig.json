@@ -132,8 +132,8 @@
   },
    {
     "title":"Chess",
-    "drawable":"GAMES",
-    "submenu":"",
+    "drawable":"",
+    "submenu":"GAMES",
     "iap":false,
     "tabs":[
       {
