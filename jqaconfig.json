@@ -80,7 +80,7 @@
         "title":"Video Streaming",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/mwebp/wed-faradi.html"
+          "file:///android_asset/www/mwebp/wedmenu.html"
         ]
       }
     ]
