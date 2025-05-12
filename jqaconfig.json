@@ -23,12 +23,12 @@
         "title":"",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/readquran.html"
+          "file:///android_asset/www/mwebp/readquran.html"
         ]
       }]
   },
 {
-    "title":"MP3 AL-QURAN DAN TERJEMAHAN",
+    "title":"MP3 SURAH DAN TERJEMAHAN",
     "drawable":"",
     "submenu":"",
     "iap":false,
@@ -37,7 +37,7 @@
         "title":"",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/quranofflineaudio.html"
+          "file:///android_asset/www/mwebp/quranofflineaudio.html"
         ]
       }]
   },
@@ -65,7 +65,22 @@
         "title":"Video Streaming",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/muvi.html"
+          "file:///android_asset/www/mwebp/muvi.html"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"GALLERY ALBUM",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Video Streaming",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/mwebp/wed-faradi.html"
         ]
       }
     ]
@@ -140,7 +155,7 @@
         "title":"Radio Online",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/Games/chess.html"
+          "file:///android_asset/www/games/chess.html"
  ]
       }
     ]
@@ -155,13 +170,13 @@
         "title":"Radio Online",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/Games/slidingnumber.html"
+          "file:///android_asset/www/games/slidingnumber.html"
  ]
       }
     ]
   },
   {
-    "title":"Chat",
+    "title":"BORAK KOPI",
     "drawable":"",
     "submenu":"MEDIA CONFERENCE",
     "iap":false,
@@ -170,7 +185,7 @@
         "title":"Radio Online",
         "provider":"webview",
         "arguments":[
-          "file:///android_asset/www/0.html"
+          "file:///android_asset/www/mwebp/kedaikopi.html"
         ]
       }
     ]
