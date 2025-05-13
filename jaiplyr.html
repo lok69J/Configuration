@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+<title>ApkArtMedia</title>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah&amp;display=swap&amp;subset=latin-ext'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&amp;display=swap&amp;subset=latin-ext'>
+</head>
+
+<style>
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  padding: 0px;
+  font-size: 0px;
+}
+</style> 
+
+<style>
+body {
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+}
+</style> 
+
+<style>
+.player-box .audio-player {
+  color: #6699ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 50px;
+  padding: 20px;
+  border-radius: 25px !important;
+  -ms-border-radius: 25px !important;
+  -moz-border-radius: 25px !important;
+  -webkit-border-radius: 25px !important;
+  background-clip: padding-box;
+  background-color: black;
+  font-family: Open Sans, sans-serif !important;
+  font-size: 12px;
+}
+@media (min-width: 567px) {
+  .player-box .audio-player {
+    width: 609px;
+  }
+}
+.player-box .audio-player .player-button {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.player-box .audio-player .progress-bar {
+  position: relative;
+  width: calc(100% - 140px);
+  height: 10px;
+  background-color: #6699ff;
+  border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  background-clip: padding-box;
+  margin-right: auto;
+  cursor: pointer;
+}
+@media (min-width: 567px) {
+  .player-box .audio-player .progress-bar {
+    width: calc(100% - 140px);
+  }
+}
+.player-box .audio-player .progress-bar .current {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 10px;
+  width: 0;
+  background-color:red;
+  border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  background-clip: padding-box;
+  cursor: pointer;
+}
+.player-box .audio-player .time {
+  width: 80px;
+}
+.player-box .playlist {
+  margin-top: 30px;
+  margin-left: 20px;
+  padding-left: 0;
+}
+.player-box .playlist li {
+  font-family: Open Sans, sans-serif !important;
+  font-size: 16px;
+  line-height: 2.5em;
+  letter-spacing: -0.21;
+  color: black;
+
+}
+.player-box .playlist li i.fas {
+  opacity: 0;
+  margin-right: 15px;
+}
+.player-box .playlist li.active,
+.player-box .playlist li:hover {
+  font-weight: 700;
+}
+.player-box .playlist li.active i.fas,
+.player-box .playlist li:hover i.fas {
+  opacity: 1;
+}
+.player-box .playlist li .list-item-number {
+  margin-right: 15px;
+}
+
+
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+</head>
+
+<body translate="no">
+  <!-- PAGE CONTENT -->
+<section class="content-box planet">
+
+         <div class="player-box">
+           <div class="sticky"> <div class="audio-player">
+              <audio src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" auto></audio>
+              <div class="player-button" id="play">
+                <i class="fas fa-book"></i>
+              </div>
+              <div class="player-button" id="pause">
+                <i class="fas fa-book-open"></i>
+              </div>
+              <div class="progress-bar" id="progressbar">
+                <div class="current" id="progress"></div>
+              </div>
+              <div class="time"><span id="duration">00:00</span> / <span id="sumduration">00:00</span></div>
+            </div>
+</div>
+
+<ul class="playlist" id="playlist">
+
+<li class="d-flex align-items-center active" data-song="001.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [001] </div>
+                <div class="item-name">Surah Alfatihah (Pembukaan) </div> 
+<li class="d-flex align-items-center active" data-song="002.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [002]</div> <div class="item-name">Surah Al-Baqarah (Lembu Betina) </div>
+<li class="d-flex align-items-center active" data-song="003.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [003]</div> <div class="item-name">Surah Ali 'Imran (Keluarga Imran) </div> 
+<li class="d-flex align-items-center active" data-song="004.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [004]</div> <div class="item-name">Surah An-Nisaa' (Wanita) </div> 
+<li class="d-flex align-items-center active" data-song="005.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [005]</div> <div class="item-name">Surah Al-Maa'idah (Hidangan) </div> 
+<li class="d-flex align-items-center active" data-song="006.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [006]</div> <div class="item-name">Surah Al-An'aam (Binatang Ternakan) </div> <li class="d-flex align-items-center active" data-song="007.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [007]</div> <div class="item-name">Surah Al-A'raaf (Tempat Tertinggi) </div> 
+<li class="d-flex align-items-center active" data-song="008.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [008]</div> <div class="item-name">Surah Al-Anfaal (Rampasan Perang) </div> 
+<li class="d-flex align-items-center active" data-song="009.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [009]</div> <div class="item-name">Surah At-Taubah (Pengampunan) </div> 
+<li class="d-flex align-items-center active" data-song="010.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [010]</div> <div class="item-name">Surah Yunus (Nabi Yunus a.s.) </div> 
+<li class="d-flex align-items-center active" data-song="011.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [011]</div> <div class="item-name">Surah Hud (Nabi Hud a.s.) </div> 
+<li class="d-flex align-items-center active" data-song="012.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [012]</div> <div class="item-name">Surah Yusuf (Nabi Yusuf a.s.) </div> 
+<li class="d-flex align-items-center active" data-song="013.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [013]</div> <div class="item-name">Surah Ar-Ra'd (Guruh) </div> 
+<li class="d-flex align-items-center active" data-song="014.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [014]</div> <div class="item-name">Surah Ibrahim (Nabi Ibrahim a.s.) </div> <li class="d-flex align-items-center active" data-song="015.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [015]</div> <div class="item-name">Surah Al-Hijr (Kawasan Berbatu) </div> <li class="d-flex align-items-center active" data-song="016.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [016]</div> <div class="item-name">Surah An-Nahl (Lebah) </div>   
+<li class="d-flex align-items-center active" data-song="017.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [017]</div> <div class="item-name">Surah Al-Israa' (Perjalanan Malam) </div>   
+<li class="d-flex align-items-center active" data-song="018.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [018]</div> <div class="item-name">Surah Al-Kahfi (Gua) </div>   
+<li class="d-flex align-items-center active" data-song="019.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [019]</div> <div class="item-name">Surah Maryam (Siti Maryam) </div>   
+<li class="d-flex align-items-center active" data-song="020.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [020]</div> <div class="item-name">Surah Taahaa </div>   
+<li class="d-flex align-items-center active" data-song="021.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [021]</div> <div class="item-name">Surah Al-Anbiyaa </div>   
+<li class="d-flex align-items-center active" data-song="022.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [022]</div> <div class="item-name">Surah Al-Hajj (Haji) </div>   
+<li class="d-flex align-items-center active" data-song="023.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [023]</div> <div class="item-name">Surah Al-Mu'minun (Golongan yang Beriman) </div>   
+<li class="d-flex align-items-center active" data-song="024.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [024]</div> <div class="item-name">Surah An Nuur </div>   
+<li class="d-flex align-items-center active" data-song="025.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [025]</div> <div class="item-name">Surah Al-Furqaan (Pembeza Kebenaran dan Kebatilan) </div>   
+<li class="d-flex align-items-center active" data-song="026.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [026]</div> <div class="item-name">Surah Asy-Syu'araa (Para Penyair) </div>   
+<li class="d-flex align-items-center active" data-song="027.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [027]</div> <div class="item-name">Surah An-Naml (Semut) </div>   
+<li class="d-flex align-items-center active" data-song="028.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [028]</div> <div class="item-name">Surah Al-Qasas (Cerita-cerita) </div>   
+<li class="d-flex align-items-center active" data-song="029.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [029]</div> <div class="item-name">Surah Al-'Ankabut (Labah-labah) </div>   
+<li class="d-flex align-items-center active" data-song="030.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [030]</div> <div class="item-name">Surah Ar-Rum (Bangsa Rom) </div>  
+  
+
+  
+  
+  <li class="d-flex align-items-center active" data-song="031.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [031]</div> <div class="item-name">Surah Luqman (Luqman) </div>
+  <li class="d-flex align-items-center active" data-song="032.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [032]</div> <div class="item-name">Surah As-Sajdah (Sujud) </div>
+  <li class="d-flex align-items-center active" data-song="033.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [033]</div> <div class="item-name">Surah Al-Ahzab (Golongan yang Bersekutu) </div>
+  <li class="d-flex align-items-center active" data-song="034.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [034]</div> <div class="item-name">Surah Saba' (Kaum Saba') </div>
+  <li class="d-flex align-items-center active" data-song="035.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [035]</div> <div class="item-name">Surah Faatir (Pencipta) </div>
+  <li class="d-flex align-items-center active" data-song="036.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [036]</div> <div class="item-name">Surah Yaasin </div>
+  <li class="d-flex align-items-center active" data-song="037.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [037]</div> <div class="item-name">Surah As-Saaffat (Yang Teratur Berbaris) </div>
+  <li class="d-flex align-items-center active" data-song="038.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [038]</div> <div class="item-name">Surah Saad </div>
+  <li class="d-flex align-items-center active" data-song="039.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [039]</div> <div class="item-name">Surah Az-Zumar (Rombongan) </div>
+  <li class="d-flex align-items-center active" data-song="040.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [040]</div> <div class="item-name">Surah Al-Ghafir / Al-Mu'min (Orang yang Beriman) </div>
+  <li class="d-flex align-items-center active" data-song="041.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [041]</div> <div class="item-name">Surah Fussilat (Dijelaskan) </div>
+  <li class="d-flex align-items-center active" data-song="042.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [042]</div> <div class="item-name">Surah Asy-Syuraa  </div>
+  <li class="d-flex align-items-center active" data-song="043.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [043]</div> <div class="item-name">Surah Az-Zukhruf (Perhiasan Emas) </div>
+  <li class="d-flex align-items-center active" data-song="044.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [044]</div> <div class="item-name">Surah Ad-Dukhaan (Kabut / Asap) </div>
+  <li class="d-flex align-items-center active" data-song="045.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [045]</div> <div class="item-name">Surah Al-Jatsiyah (Yang Berlutut) </div>
+  <li class="d-flex align-items-center active" data-song="046.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [046]</div> <div class="item-name">Surah Al-Ahqaaf (Bukit-bukit Pasir) </div>
+  <li class="d-flex align-items-center active" data-song="047.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [047]</div> <div class="item-name">Surah Muhammad (Nabi Muhammad SAW) </div>
+  <li class="d-flex align-items-center active" data-song="048.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [048]</div> <div class="item-name">Surah Al-Fath (Kemenangan) </div>
+  <li class="d-flex align-items-center active" data-song="049.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [049]</div> <div class="item-name">Surah Al-Hujurat (Bilik-bilik) </div>
+  <li class="d-flex align-items-center active" data-song="050.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [050]</div> <div class="item-name">Surah Qaaf </div>
+  <li class="d-flex align-items-center active" data-song="051.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [051]</div> <div class="item-name">Surah Adz-Dzariyaat (Angin yang Menerbangkan) </div>
+  <li class="d-flex align-items-center active" data-song="052.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [052]</div> <div class="item-name">Surah At-Tur (Bukit) </div>
+  <li class="d-flex align-items-center active" data-song="053.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [053]</div> <div class="item-name">Surah An-Najm (Bintang) </div>
+  <li class="d-flex align-items-center active" data-song="054.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [054]</div> <div class="item-name">Surah Al-Qamar (Bulan) </div>
+  
+  
+  <li class="d-flex align-items-center active" data-song="055.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [055]</div> <div class="item-name">Surah Ar-Rahman (Yang Maha Pemurah) </div>
+  <li class="d-flex align-items-center active" data-song="056.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [056]</div> <div class="item-name">Surah Al-Waqi'ah (Peristiwa yang Tidak Dapat Dielakkan) </div>
+  <li class="d-flex align-items-center active" data-song="057.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [057]</div> <div class="item-name">Surah Al-Hadid (Besi) </div>
+  <li class="d-flex align-items-center active" data-song="058.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [058]</div> <div class="item-name">Surah Al-Mujadilah (Perempuan yang Merayu) </div>
+  <li class="d-flex align-items-center active" data-song="059.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [059]</div> <div class="item-name">Surah Al-Hasyr (Pengusiran) </div>
+  <li class="d-flex align-items-center active" data-song="060.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [060]</div> <div class="item-name">Surah Al-Mumtahanah (Perempuan yang Diuji) </div>
+  <li class="d-flex align-items-center active" data-song="061.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [061]</div> <div class="item-name">Surah As-Saf (Barisan) </div>
+  <li class="d-flex align-items-center active" data-song="062.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [062]</div> <div class="item-name">Surah Al-Jumu'ah (Hari Jumaat) </div>
+  <li class="d-flex align-items-center active" data-song="063.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [063]</div> <div class="item-name">Surah Al-Munafiquun (Golongan Munafik) </div>
+  <li class="d-flex align-items-center active" data-song="064.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [064]</div> <div class="item-name">Surah At-Taghabun (Dinampakkan Kesalahan) </div>
+  <li class="d-flex align-items-center active" data-song="065.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [065]</div> <div class="item-name">Surah At-Talaq (Cerai / Talak) </div>
+  <li class="d-flex align-items-center active" data-song="066.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [066]</div> <div class="item-name">Surah At-Tahrim (Mengharamkan) </div>
+  <li class="d-flex align-items-center active" data-song="067.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [067]</div> <div class="item-name">Surah Al-Mulk (Kerajaan) </div>
+  <li class="d-flex align-items-center active" data-song="068.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [068]</div> <div class="item-name">Surah Al-Qalam (Pena / Kalam) </div>
+  <li class="d-flex align-items-center active" data-song="069.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [069]</div> <div class="item-name">Surah Al-Haaqqah (Keadaan Sebenar / Hari Kiamat) </div>
+  <li class="d-flex align-items-center active" data-song="070.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [070]</div> <div class="item-name">Surah Al-Ma'arij (Tempat-tempat Naik) </div>
+  <li class="d-flex align-items-center active" data-song="071.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [071]</div> <div class="item-name">Surah Nuh (Nabi Nuh a.s.) </div>
+  <li class="d-flex align-items-center active" data-song="072.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [072]</div> <div class="item-name">Surah A-Jin (Jin) </div>
+  <li class="d-flex align-items-center active" data-song="073.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [073]</div> <div class="item-name">Surah Al-Muzammil (Yang Berselimut) </div>
+  <li class="d-flex align-items-center active" data-song="074.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [074]</div> <div class="item-name">Surah Al-Muddathir (Yang Berselubung) </div>
+  <li class="d-flex align-items-center active" data-song="075.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [075]</div> <div class="item-name">Surah Al-Qiyaamah (Hari Kebangkitan / Kiamat) </div>
+  <li class="d-flex align-items-center active" data-song="076.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [076]</div> <div class="item-name">Surah Al-Insaan (Manusia) </div>
+  <li class="d-flex align-items-center active" data-song="077.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [077]</div> <div class="item-name">Surah Al-Mursalat (Malaikat Yang Diutus) </div>
+  <li class="d-flex align-items-center active" data-song="078.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [078]</div> <div class="item-name">Surah An-Naba' (Berita Besar) </div>
+  <li class="d-flex align-items-center active" data-song="079.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [079]</div> <div class="item-name">Surah An-Naazi'aat (Malaikat Yang Mencabut) </div>
+  <li class="d-flex align-items-center active" data-song="080.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [080]</div> <div class="item-name">Surah 'Abasa (Dia Bermasam Muka) </div>
+  <li class="d-flex align-items-center active" data-song="081.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [081]</div> <div class="item-name">Surah At-Takwiir (Menggulung) </div>
+  <li class="d-flex align-items-center active" data-song="082.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [082]</div> <div class="item-name">Surah Al-Infitar (Terpecah & Terbelah) </div>
+  <li class="d-flex align-items-center active" data-song="083.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [083]</div> <div class="item-name">Surah Al-Mutaffifiin (Golongan yang Curang) </div>
+  <li class="d-flex align-items-center active" data-song="084.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [084]</div> <div class="item-name">Surah Al-Insyiqaaq (Terbelah) </div>
+  <li class="d-flex align-items-center active" data-song="085.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [085]</div> <div class="item-name">Surah Al-Buruj (Gugusan Bintang) </div>
+  <li class="d-flex align-items-center active" data-song="086.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [086]</div> <div class="item-name">Surah At-Taariq (Pengunjung Malam) </div>
+  <li class="d-flex align-items-center active" data-song="087.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [087]</div> <div class="item-name">Surah Al-A'laa (Yang Tertinggi) </div>
+  <li class="d-flex align-items-center active" data-song="088.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [088]</div> <div class="item-name">Surah Al-Ghaasyiah (Peristiwa Menggelisahkan/Hari Pembalasan) </div>
+  <li class="d-flex align-items-center active" data-song="089.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [089]</div> <div class="item-name">Surah Al-Fajr (Fajar / Sinar Mentari) </div>
+  <li class="d-flex align-items-center active" data-song="090.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [090]</div> <div class="item-name">Surah Al-Balad (Negeri) </div>
+  <li class="d-flex align-items-center active" data-song="091.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [091]</div> <div class="item-name">Surah Asy-Syams (Matahari) </div>
+  <li class="d-flex align-items-center active" data-song="092.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [092]</div> <div class="item-name">Surah Al-Lail (Malam) </div>
+  <li class="d-flex align-items-center active" data-song="093.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [093]</div> <div class="item-name">Surah Adh-Dhuha (Pagi yang Cemerlang / Matahari Meninggi) </div>
+  <li class="d-flex align-items-center active" data-song="094.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [094]</div> <div class="item-name">Surah Al-Insyirah/An-Nasyrah (Melapangkan) </div>
+  <li class="d-flex align-items-center active" data-song="095.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [095]</div> <div class="item-name">Surah At-Tin (Buah Tin / Buah Ara) </div>
+  <li class="d-flex align-items-center active" data-song="096.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [096]</div> <div class="item-name">Surah Al-'Alaq (Segumpal Darah) </div>
+  <li class="d-flex align-items-center active" data-song="097.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [097]</div> <div class="item-name">Surah Al-Qadr (Kemuliaan) </div>
+  <li class="d-flex align-items-center active" data-song="098.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [098]</div> <div class="item-name">Surah Al-Baiyinah (Bukti yang Nyata) </div>
+  <li class="d-flex align-items-center active" data-song="099.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [099]</div> <div class="item-name">Surah Al-Zalzalah (Kegoncangan) </div>
+  <li class="d-flex align-items-center active" data-song="100.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [100]</div> <div class="item-name">Surah Al-'Aadiyaat (Yang Berlari Kencang) </div>
+  <li class="d-flex align-items-center active" data-song="101.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [101]</div> <div class="item-name">Surah Al-Qari'ah (Hari Yang Hingar Bingar/kiamat) </div>
+  <li class="d-flex align-items-center active" data-song="102.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [102]</div> <div class="item-name">Surah At-Takathur (Bermegah-Megah) </div>
+  <li class="d-flex align-items-center active" data-song="103.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [103]</div> <div class="item-name">Surah Al-'Asr (Masa) </div>
+  <li class="d-flex align-items-center active" data-song="104.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [104]</div> <div class="item-name">Surah Al-Humazah (Pengumpat) </div>
+  <li class="d-flex align-items-center active" data-song="105.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [105]</div> <div class="item-name">Surah Al-Fiil (Gajah) </div>
+  <li class="d-flex align-items-center active" data-song="106.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [106]</div> <div class="item-name">Surah Quraisy (Kaum Quraisy) </div>
+  <li class="d-flex align-items-center active" data-song="107.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [107]</div> <div class="item-name">Surah Al-Ma'un (Barangan Berguna) </div>
+  <li class="d-flex align-items-center active" data-song="108.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [108]</div> <div class="item-name">Surah Al-Kauthar (Sungai Di Syurga) </div>
+  <li class="d-flex align-items-center active" data-song="109.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [109]</div> <div class="item-name">Surah Al-Kafirun (Golongan Kafir) </div>
+  <li class="d-flex align-items-center active" data-song="110.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [110]</div> <div class="item-name">Surah An-Nasr (Pertolongan) </div>
+  <li class="d-flex align-items-center active" data-song="111.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [111]</div> <div class="item-name">Surah Al-Masad / Al-Lahab (Nyalaan Api) </div>
+  <li class="d-flex align-items-center active" data-song="112.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [112]</div> <div class="item-name">Surah Al-Ikhlas (Tulus Ikhlas / Memurnikan Keesaan Allah) </div>
+  <li class="d-flex align-items-center active" data-song="113.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [113]</div> <div class="item-name">Surah Al-Falaq (Waktu Subuh / Dinihari) </div>
+  <li class="d-flex align-items-center active" data-song="114.mp3"><i class="fas fa-book"></i><div class="list-item-number"> [114]</div> <div class="item-name">Surah An-Naas (Manusia) </div>
+
+</li>
+
+</ul><!-- /.playlist -->
+          </div><!-- /.player-box -->
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section><!-- /.content-box -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+      <script id="rendered-js" >
+//Create audio object
+var audio = new Audio("https://archive.org/download/MurotalMR/036.mp3");
+
+//Hide Pause
+const playElement = $("#play");
+const pauseElement = $("#pause");
+pauseElement.hide();
+var playStatus = false;
+var musicTime = 0;
+var progressSlide = true;
+
+function initAudio(element) {
+  var song = element.attr("data-song");
+  audio = new Audio("https://archive.org/download/MurotalMR/" + song);
+  $(audio).on("loadedmetadata", function () {
+    musicTime = audio.duration;
+    $("#sumduration").html(reskinTime(audio.duration));
+  });
+
+  $(audio).on("ended", function () {
+    next();
+  });
+
+  $("#playlist li").removeClass("active");
+  element.addClass("active");
+}
+
+function reskinTime(secs, format) {
+  var hr = Math.floor(secs / 3600);
+  var min = Math.floor((secs - hr * 3600) / 60);
+  var sec = Math.floor(secs - hr * 3600 - min * 60);
+  if (sec < 10) {
+    sec = "0" + sec;
+  }
+  return min + ":" + sec;
+}
+
+function play() {
+  audio.play();
+  playElement.hide();
+  pauseElement.show();
+  showDuration();
+  playStatus = !playStatus;
+}
+
+function pause() {
+  audio.pause();
+  playElement.show();
+  pauseElement.hide();
+  playStatus = !playStatus;
+}
+
+function stop() {
+  audio.pause();
+  audio.currentTime = 0;
+  playStatus = !playStatus;
+}
+
+function next() {
+  audio.pause();
+  let next = $("#playlist li.active").next();
+  if (next.length === 0) {
+    next = $("#playlist li:first-child");
+  }
+  initAudio(next);
+  audio.play();
+  showDuration();
+}
+
+function prev() {
+  audio.pause();
+  let prev = $("#playlist li.active").prev();
+  if (prev.length === 0) {
+    prev = $("#playlist li:last-child");
+  }
+  initAudio(prev);
+  audio.play();
+  showDuration();
+}
+
+//Play button
+playElement.click(function () {
+  play();
+});
+
+//Pause button
+pauseElement.click(function () {
+  pause();
+});
+
+//Stop button
+$("#stop").click(function () {
+  stop();
+});
+
+//Next button
+$("#next").click(function () {
+  next();
+});
+
+//Prev button
+$("#prev").click(function () {
+  prev();
+});
+
+$(window).on("keydown", function (e) {
+  switch (e.keyCode) {
+    case 32:
+      if (e.target === document.body) {
+        e.preventDefault();
+      }
+      playStatus ? pause() : play();
+      break;
+    case 39:
+      next();
+      break;
+    case 37:
+      prev();
+      break;
+    default:
+      return false;}
+
+});
+
+let progressBar = $("#progressbar");
+progressBar.on("mousemove", function (e) {
+  progressSlide = false;
+  var progressWidth = $(this).width();
+  var mouseOffsetX = e.offsetX;
+  var total = mouseOffsetX * 100 / progressWidth;
+  if (playStatus) $("#progress").css({ width: total + "%" });
+});
+
+progressBar.on("mouseleave", function (e) {
+  progressSlide = true;
+});
+
+progressBar.click(function (e) {
+  pause();
+  var progressWidth = $(this).width();
+  var mouseOffsetX = e.offsetX;
+  var total = mouseOffsetX * 100 / progressWidth;
+  audio.currentTime = musicTime / 100 * total;
+  if (playStatus) $("#progress").css({ width: total + "%" });
+  play();
+});
+
+//Playlist song click
+$("#playlist li").click(function () {
+  audio.pause();
+  initAudio($(this));
+  $("#play").hide();
+  $("#pause").show();
+  audio.play();
+  showDuration();
+});
+
+//Time/Duration
+function showDuration() {
+  $(audio).bind("timeupdate", function () {
+    //Get hours and minutes
+    var s = parseInt(audio.currentTime % 60);
+    var m = parseInt(audio.currentTime / 60) % 60;
+    if (s < 10) {
+      s = "0" + s;
+    }
+    if (m < 10) {
+      m = "0" + m;
+    }
+    $("#duration").html(m + ":" + s);
+    var value = 0;
+    if (audio.currentTime > 0) {
+      value = Math.floor(100 / audio.duration * audio.currentTime);
+    }
+    if (progressSlide) $("#progress").css("width", value + "%");
+  });
+}
+
+initAudio();
+//# sourceURL=pen.js
+    </script>
+
+  
+</body>
+
+</html>
