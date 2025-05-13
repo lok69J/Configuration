@@ -42,6 +42,20 @@
       }]
   },
   {
+    "title":"MP3 SURAH DAN TERJEMAHAN2",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"webview",
+        "arguments":[
+          "https://raw.githubusercontent.com/lok69J/Configuration/refs/heads/main/jaiplyr.html"
+        ]
+      }]
+  },
+  {
     "title":"WAKTU SOLAT",
     "drawable":"",
     "submenu":"",
