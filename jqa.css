@@ -33,7 +33,7 @@ p {
 }
 .background-image-books {
   background-color: #d2c2b5;
-  background-image: url("https://picsum.photos/id/1073/960/540");
+  background-image: url("file:///android_asset/www/jaimages/media.faradi.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
