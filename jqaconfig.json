@@ -95,7 +95,7 @@
         "title":"Video Streaming",
         "provider":"webview",
         "arguments":[
-          "https://html-preview.github.io/?url=https://raw.githubusercontent.com/lok69J/Configuration/refs/heads/main/phomenu.html"
+          "https://raw.githack.com/lok69J/Configuration/refs/heads/main/phomenu.html"
         ]
       }
     ]
