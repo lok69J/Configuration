@@ -95,7 +95,7 @@
         "title":"Video Streaming",
         "provider":"webview",
         "arguments":[
-          "https://rawcdn.githack.com/lok69J/Configuration/refs/heads/main/menus.html"
+          "          "file:///android_asset/www/mwebp/test.html""
         ]
       }
     ]
