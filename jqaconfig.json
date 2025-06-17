@@ -55,25 +55,10 @@
         ]
       }]
   },
-   {
-    "title":"MOVIE",
+{
+    "title":"ALBUM MAJLIS",
     "drawable":"",
-    "submenu":"MEDIA",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Video Streaming",
-        "provider":"webview",
-        "arguments":[
-          "file:///android_asset/www/mwebp/muvi.html"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"GALLERY ALBUM",
-    "drawable":"",
-    "submenu":"",
+    "submenu":"GALLERY",
     "iap":false,
     "tabs":[
       {
@@ -86,7 +71,7 @@
     ]
   },
 {
-    "title":"GALLERY ALBUM 2",
+    "title":"ALBUM RANDOM",
     "drawable":"",
     "submenu":"",
     "iap":false,
@@ -115,6 +100,22 @@
       }
     ]
   },
+   {
+    "title":"MOVIE",
+    "drawable":"",
+    "submenu":"MEDIA",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Video Streaming",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/mwebp/muvi.html"
+        ]
+      }
+    ]
+  },
+
   {
    "title":"OP TV",
     "drawable":"",
