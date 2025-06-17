@@ -85,6 +85,21 @@
       }
     ]
   },
+{
+    "title":"GALLERY ALBUM 2",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Video Streaming",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/webpage/2.html"
+        ]
+      }
+    ]
+  },
   {
    "title":"OP TV",
     "drawable":"",
