@@ -1,22 +1,19 @@
 {
     "items": {
-        "Home": "https://example.com/"
-         [
-         {
-        "imgLink":[       
-"file:///android_asset/www/index.html"
-        ]
-      }],
-  
-
+        "Home": "https://example.com/",
+         
         "One": "https://example.com/",
+
         "Two": "https://example.com/",
+
         "Three": "https://example.com/",
+
         "Four": "https://example.com/"
     },
+
     "brand": {
         "name": "",
         "url": ""
     }
-
+}
 
