@@ -5,10 +5,7 @@
         "Two": "https://example.com/",
         "Three": "https://example.com/",
         "Four": "https://example.com/"
-    },
-    "brand": {
-        "name": "BRAND-NAME",
-        "url": "https://example.com/"
     }
+    
 }
 
