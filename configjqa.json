@@ -7,8 +7,8 @@
         "Four": "https://example.com/"
     },
     "brand": {
-        "name": "BRAND-NAME",
-        "url": "https://example.com/"
+        "name": "",
+        "url": ""
     }
 }
 
