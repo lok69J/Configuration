@@ -1,6 +1,16 @@
 {
     "items": {
         "Home": "https://example.com/",
+         [
+         {
+        "title":"",
+        "provider":"webview",
+        "arguments":[       
+"file:///android_asset/www/index.html"
+        ]
+      }]
+  },
+
         "One": "https://example.com/",
         "Two": "https://example.com/",
         "Three": "https://example.com/",
