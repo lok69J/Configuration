@@ -1,5 +1,4 @@
-{
-  menuItems = [
+[
   {
     "name" : "Home",
     "url" : "#",
@@ -34,4 +33,3 @@
     "submenu" : []
   }
 ]
-}
