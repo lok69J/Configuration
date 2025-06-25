@@ -1,29 +1,14 @@
-
-	[
-		{
-			"menu": "MELAYU",
-			"menuurl": "https://canticumarchivum.blogspot.com/p/malay.html"
-	    },
-		{
-			"menu": "BARAT",
-			"menuurl": "https://canticumarchivum.blogspot.com/p/english.html"
-		},
-		{
-			"menu": "other player",
-			"menuurl": "file:///android_asset/apkart/warning.html"
-		},
-		{
-			"menu": "musicmatch",
-			"menuurl": "file:///android_asset/apkart/apkartoffline.html"
-		},
-		{
-			"menu": "ttttvvvv",
-			"menuurl": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f7790b3ed0c88000720b241/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus"
-		},
-		{
-			"menu": "IPTV",
-			"menuurl": "https://jewel998.github.io/playlist/"
-		}
-		
-	]
+{
+    "items": {
+        "Home": "https://example.com/",
+        "One": "https://example.com/",
+        "Two": "https://example.com/",
+        "Three": "https://example.com/",
+        "Four": "https://example.com/"
+    },
+    "brand": {
+        "name": "BRAND-NAME",
+        "url": "https://example.com/"
+    }
+}
 
