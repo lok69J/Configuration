@@ -1,4 +1,5 @@
-{menuItems = [
+{
+  menuItems = [
   {
     "name" : "Home",
     "url" : "#",
