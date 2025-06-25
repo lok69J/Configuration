@@ -3,9 +3,7 @@
         "Home": "https://example.com/"
          [
          {
-        "title":"",
-        "provider":"webview",
-        "arguments":[       
+        "imgLink":[       
 "file:///android_asset/www/index.html"
         ]
       }]
