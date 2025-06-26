@@ -3,12 +3,10 @@
     "brand": {
         "name": "BRAND-NAME",
         "url": "https://example.com/"
-    }
-},
-{
-   
-    "brand": {
-        "name": "BRAND-NAME",
+    },
+
+   {
+        "name": "BRAND-No",
         "url": "https://example.com/"
     }
 }
