@@ -11,18 +11,4 @@
         "name": "BRAND-NAME",
         "url": "https://example.com/"
     }
-},
-{
-    "title":"AL-QURAN",
-    "drawable":"",
-    "submenu":"ISLAMIC ZONE",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"",
-        "provider":"webview",
-        "arguments":[
-          "file:///android_asset/www/mwebp/readquran.html"
-        ]
-      }]
-  }
+}
