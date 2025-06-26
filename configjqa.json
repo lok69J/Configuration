@@ -29,9 +29,8 @@
 
     },
    {
-        "name": "OP TV",
-        "provider":"radio",
-        "arguments":["http://node-17.zeno.fm:80/s93mzhh7yf9uv"]
+        "name": "RADIO",
+        "url":"http://node-17.zeno.fm:80/s93mzhh7yf9uv"
         
       }
     
