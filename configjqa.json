@@ -1,11 +1,43 @@
 [
   {
-        "name": "BRAND-NAME",
-        "url": "https://example.com/"
+        "name": "AL-QURAN",
+        "url": "file:///android_asset/www/mwebp/readquran.html"
 
     },
   {
-        "name": "BRAND-NA",
-        "url": "https://example.com/"
+        "name": "MP3 SURAH DAN TERJEMAHAN",
+        "url": "file:///android_asset/www/mwebp/quranofflineaudio.html"
+    },
+{
+        "name": "WAKTU SOLAT",
+        "url": "https://www.e-solat.gov.my/"
+
+    },
+  {
+        "name": "ALBUM MAJLIS",
+        "url": "file:///android_asset/www/mwebp/phomenu.html"
+
+    },
+  {
+        "name": "ALBUM RANDOM",
+        "url": "file:///android_asset/www/mwebp/randomize.html"
+
+    },
+  {
+        "name": "OP TV",
+        "url": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f7790b3ed0c88000720b241/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus"
+
+    },
+   {
+        "name": "OP TV",
+        "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"radio",
+        "arguments":["http://node-17.zeno.fm:80/s93mzhh7yf9uv"]
+        
+      }
+    
+
     }
 ]
