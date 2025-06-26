@@ -1,12 +1,14 @@
 {
-   
+    "items": {
+        "Home": "https://example.com/",
+        "One": "https://example.com/",
+        "Two": "https://example.com/",
+        "Three": "https://example.com/",
+        "Four": "https://example.com/"
+    },
     "brand": {
         "name": "BRAND-NAME",
         "url": "https://example.com/"
-    },
-
-   {
-        "name": "BRAND-No",
-        "url": "https://example.com/"
     }
 }
+
