@@ -23,6 +23,10 @@
         "url": "file:///android_asset/www/mwebp/randomize.html"
 
     },
+{
+        "name": "MOVIE",
+        "url": "file:///android_asset/www/mwebp/muvi.html"
+    },
   {
         "name": "OP TV",
         "url": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f7790b3ed0c88000720b241/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&allowfullscreen"
@@ -34,6 +38,17 @@
         
       }
     
-
+{
+        "name": "CHESS",
+        "url": "file:///android_asset/www/games/chess.html"
+    },
+{
+        "name": "SLIDE-NUMBER",
+        "url": "file:///android_asset/www/games/slidingnumber.html"
+    },
+{
+        "name": "BORAK-KOPI",
+        "url": "file:///android_asset/www/mwebp/kedaikopi.html"
+    },
     
 ]
