@@ -1,11 +1,209 @@
+[
+  {
+    "title":"WELCOME!",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/index.html"
+        ]
+      }]
+  },
+  {
+    "title":"AL-QURAN",
+    "drawable":"",
+    "submenu":"ISLAMIC ZONE",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/mwebp/readquran.html"
+        ]
+      }]
+  },
 {
-    "items": {
-        "Home": "https://example.com/",
+    "title":"MP3 SURAH DAN TERJEMAHAN",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/mwebp/quranofflineaudio.html"
+        ]
+      }]
+  },
+  {
+    "title":"WAKTU SOLAT",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Koleksi Lagu",
+        "provider":"webview",
+        "arguments":[
+          "https://www.e-solat.gov.my/"
+        ]
+      }]
+  },
+{
+    "title":"ALBUM MAJLIS",
+    "drawable":"",
+    "submenu":"GALLERY",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Video Streaming",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/mwebp/phomenu.html"
+        ]
+      }
+    ]
+  },
+{
+    "title":"ALBUM RANDOM",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Video Streaming",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/mwebp/randomize.html"
+        ]
+      }
+    ]
+  },
+   {
+    "title":"MOVIE",
+    "drawable":"",
+    "submenu":"MEDIA",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Video Streaming",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/mwebp/muvi.html"
+        ]
+      }
+    ]
+  },
 
-    },
-    "brand": {
-        "name": "BRAND-NAME",
-        "url": "https://example.com/"
-    }
-}
-
+  {
+   "title":"OP TV",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Video Streaming",
+        "provider":"stream",
+        "arguments":[
+          "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f7790b3ed0c88000720b241/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"HitsMelayu-NonStop",
+    "drawable":"",
+    "submenu":"RADIO ONLINE",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"radio",
+        "arguments":[
+          "http://node-17.zeno.fm:80/s93mzhh7yf9uv"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"sonicFM",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"radio",
+        "arguments":[
+          "http://node-11.zeno.fm:80/d6b1dwmbyf9uv"
+ ]
+      }
+    ]
+  },
+  {
+    "title":"daBEZT",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"radio",
+        "arguments":[
+          "http://node-10.zeno.fm:80/6cf3bsmbyf9uv"
+ ]
+      }
+    ]
+  },
+   {
+    "title":"Chess",
+    "drawable":"",
+    "submenu":"GAMES",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/games/chess.html"
+ ]
+      }
+    ]
+  },
+  {
+    "title":"SlideNum",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/games/slidingnumber.html"
+ ]
+      }
+    ]
+  },
+  {
+    "title":"BORAK KOPI",
+    "drawable":"",
+    "submenu":"MEDIA CONFERENCE",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio Online",
+        "provider":"webview",
+        "arguments":[
+          "file:///android_asset/www/mwebp/kedaikopi.html"
+        ]
+      }
+    ]
+  }
+]
