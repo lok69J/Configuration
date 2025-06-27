@@ -37,7 +37,6 @@
         "url":"http://node-17.zeno.fm:80/s93mzhh7yf9uv"
         
       },
-    
 {
         "name": "CHESS",
         "url": "file:///android_asset/www/games/chess.html"
@@ -46,11 +45,13 @@
         "name": "SLIDE-NUMBER",
         "url": "file:///android_asset/www/games/slidingnumber.html"
     },
+  {
+  "name": "GAMES",
   "url" : "#",
     "submenu" : [
       {
         "name" : "Web Design",
-        "url" : "#"
+        "url" : "file:///android_asset/www/games/slidingnumber.html"
       },
       {
         "name" : "Graphic Design",
