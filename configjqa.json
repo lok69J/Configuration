@@ -46,6 +46,22 @@
         "name": "SLIDE-NUMBER",
         "url": "file:///android_asset/www/games/slidingnumber.html"
     },
+  "url" : "#",
+    "submenu" : [
+      {
+        "name" : "Web Design",
+        "url" : "#"
+      },
+      {
+        "name" : "Graphic Design",
+        "url" : "#"
+      },
+      {
+        "name" : "Social Media",
+        "url" : "#"
+      }
+    ]
+  },
 {
         "name": "BORAK-KOPI",
         "url": "file:///android_asset/www/mwebp/kedaikopi.html"
