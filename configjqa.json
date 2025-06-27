@@ -46,9 +46,8 @@
         "url": "file:///android_asset/www/games/slidingnumber.html"
     },
   {
-  "name": "GAMES",
-  "url" : "#",
-    "submenu" : [
+  "name": "GAMES"
+  "submenu" : [
       {
         "name" : "Web Design",
         "url" : "file:///android_asset/www/games/slidingnumber.html"
