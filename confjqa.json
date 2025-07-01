@@ -4,7 +4,7 @@
 			"product": {
 				"id": "111",
 				"name": "Dog",
-         "url": "https://www.google.com/"
+         "url": "https://www.google.com/",
 				"shortDescription": "<p>Mans best friend</p>",
 				"category": "Canine",
 				"availability": "In Stock",
