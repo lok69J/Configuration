@@ -1,0 +1,18 @@
+[
+  {
+        "name": "AL-QURAN",
+        "url": "file:///android_asset/www/mwebp/readquran.html"
+
+    },
+  {
+        "name": "MP3 SURAH DAN TERJEMAHAN",
+        "url": "file:///android_asset/www/mwebp/quranofflineaudio.html"
+    },
+{
+        "name": "WAKTU SOLAT",
+        "url": "https://www.e-solat.gov.my/"
+
+   } 
+  
+    
+]
