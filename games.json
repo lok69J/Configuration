@@ -1,10 +1,13 @@
 [
 {
         "name": "CHESS",
-        "url": "file:///android_asset/www/mwebp/muvi.html"
+        "url": "file:///android_asset/www/games/chess.html"
     },
 {
-        "name": "SLIDING NUMBER",
-        "url": "file:///android_asset/www/mwebp/muvi.html"
+        "name": "SLIDE THIS NUMBER!",
+        "url": "file:///android_asset/www/games/slidingnumber.html"
+    },
+"name": "SLIDE THIS NUMBER!",
+        "url": "file:///android_asset/www/games/ninjai.html"
     }
 ] 
