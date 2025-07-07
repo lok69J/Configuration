@@ -22,6 +22,11 @@
                 "descricao" : "MP3 SURAH DAN TERJEMAHAN",
                 "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
                 "link" : "file:///android_asset/www/games/ninjai.html"
+        },
+	{
+                "id" : "ISLAMIC",
+                "descricao" : "MP3 SURAH DAN TERJEMAHAN",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
+                "link" : "file:///android_asset/www/games/ninjai.html"
         }
-	
 ]
