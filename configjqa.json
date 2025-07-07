@@ -66,6 +66,10 @@
 {
         "name": "BORAK-KOPI",
         "url": "file:///android_asset/www/mwebp/kedaikopi.html"
-    }
+    },
+  {
+        "name": "ARAH KIBLAT",
+        "url": "https://www.al-habib.info/qibla-pointer/online-qibla-compass.htm"
+}
     
 ]
