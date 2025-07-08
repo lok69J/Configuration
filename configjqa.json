@@ -69,7 +69,7 @@
     },
   {
         "name": "ARAH KIBLAT",
-        "url": "https://www.al-habib.info/qibla-pointer/online-qibla-compass.htm"
+        "url": "file:///android_asset/www/mwebp/QiblaCompassOnline.html"
 }
     
 ]
