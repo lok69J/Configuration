@@ -19,34 +19,34 @@
 	},
 {
                 "id" : "GAMES",
-                "descricao" : "ROCKPAPERSCISSOR",
-                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
-                "link" : "file:///android_asset/www/games/RockPaperScissors.html"
+                "descricao" : "BLOCK",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbsok8aMe8kpATwD7u17vAwvaVEtaILZmc8Q&s",
+                "link" : "file:///android_asset/www/games/blockgame.html"
         },
 	{
                 "id" : "GAMES",
                 "descricao" : "WhackAMole",
-                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyXteRIxFZtKwl6ZLbFECDh6hh3-q0s2rfYw&s",
                 "link" : "file:///android_asset/www/games/WhackAMole.html"
         },
 {
                 "id" : "GAMES",
-                "descricao" : "Archery",
-                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
-                "link" : "file:///android_asset/www/games/Archery.html"
+                "descricao" : "ParkinG",
+                "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/ParkingJamTeaser.jpg?v=0.2-004af2e9",
+                "link" : "https://play.famobi.com/parking-jam"
         },
 
 {
                 "id" : "GAMES",
-                "descricao" : "CandyCrush",
-                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
-                "link" : "file:///android_asset/www/games/CandyCrush.html"
+                "descricao" : "SpotDCat",
+                "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/60/SpotTheCatTeaser.jpg?v=0.2-004af2e9",
+                "link" : "https://play.famobi.com/spot-the-cat"
         },
 {
                 "id" : "GAMES",
-                "descricao" : "EmojiCatcher",
-                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
-                "link" : "file:///android_asset/www/games/EmojiCatcher.html"
+                "descricao" : "Guess",
+                "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/120/GuessTheirAnswerTeaser.jpg?v=0.2-004af2e9",
+                "link" : "https://play.famobi.com/guess-their-answer"
         },
 {
                 "id" : "GAMES",
