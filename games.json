@@ -1,7 +1,7 @@
 [
 	{
-		"id" : "GAMES",
-		"descricao" : "CHESS",
+		"id" : "",
+		"descricao" : "",
 		"imagem" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/ChessSet.jpg/640px-ChessSet.jpg",
 		"link" : "file:///android_asset/www/games/chess.html"
 	},
@@ -39,7 +39,7 @@
 {
                 "id" : "GAMES",
                 "descricao" : "SpotDCat",
-                "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/60/SpotTheCatTeaser.jpg?v=0.2-004af2e9",
+                "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/180/SpotTheCatTeaser.jpg?v=0.2-004af2e9",
                 "link" : "https://play.famobi.com/spot-the-cat"
         },
 {
