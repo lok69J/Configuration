@@ -1,50 +1,50 @@
 [
 	{
-		"id" : "",
+		"id" : "Chess",
 		"descricao" : "",
 		"imagem" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/ChessSet.jpg/640px-ChessSet.jpg",
 		"link" : "file:///android_asset/www/games/chess.html"
 	},
 	{
-		"id" : "GAMES",
-		"descricao" : "SLIDeNUM",
+		"id" : "SlideNum",
+		"descricao" : "",
 		"imagem" : "https://m.media-amazon.com/images/I/51sFGKdcBcL.jpg",
 		"link" : "file:///android_asset/www/games/slidingnumber.html"
 	},
 {
-		"id" : "GAMES",
-		"descricao" : "NINJAi",
+		"id" : "NINJAi",
+		"descricao" : "",
 		"imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
 		"link" : "file:///android_asset/www/games/ninjai.html"
 	},
 {
-                "id" : "GAMES",
-                "descricao" : "BLOCK",
+                "id" : "BlocK",
+                "descricao" : "",
                 "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbsok8aMe8kpATwD7u17vAwvaVEtaILZmc8Q&s",
                 "link" : "file:///android_asset/www/games/blockgame.html"
         },
 	{
-                "id" : "GAMES",
-                "descricao" : "WhackAMole",
+                "id" : "Whack",
+                "descricao" : "",
                 "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyXteRIxFZtKwl6ZLbFECDh6hh3-q0s2rfYw&s",
                 "link" : "file:///android_asset/www/games/WhackAMole.html"
         },
 {
-                "id" : "GAMES",
-                "descricao" : "ParkinG",
+                "id" : "ParkJam",
+                "descricao" : "",
                 "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/ParkingJamTeaser.jpg?v=0.2-004af2e9",
                 "link" : "https://play.famobi.com/parking-jam"
         },
 
 {
-                "id" : "GAMES",
-                "descricao" : "SpotDCat",
+                "id" : "SpoT",
+                "descricao" : "",
                 "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/180/SpotTheCatTeaser.jpg?v=0.2-004af2e9",
                 "link" : "https://play.famobi.com/spot-the-cat"
         },
 {
-                "id" : "GAMES",
-                "descricao" : "Guess",
+                "id" : "Guess",
+                "descricao" : "",
                 "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/120/GuessTheirAnswerTeaser.jpg?v=0.2-004af2e9",
                 "link" : "https://play.famobi.com/guess-their-answer"
         },
