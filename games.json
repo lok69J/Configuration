@@ -18,15 +18,105 @@
 		"link" : "file:///android_asset/www/games/ninjai.html"
 	},
 {
-                "id" : "ISLAMIC",
-                "descricao" : "MP3 SURAH DAN TERJEMAHAN",
+                "id" : "GAMES",
+                "descricao" : "ROCKPAPERSCISSOR",
                 "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
-                "link" : "file:///android_asset/www/games/ninjai.html"
+                "link" : "file:///android_asset/www/games/RockPaperScissors.html"
         },
 	{
-                "id" : "ISLAMIC",
-                "descricao" : "MP3 SURAH DAN TERJEMAHAN",
+                "id" : "GAMES",
+                "descricao" : "WhackAMole",
                 "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
-                "link" : "file:///android_asset/www/games/ninjai.html"
+                "link" : "file:///android_asset/www/games/WhackAMole.html"
+        },
+{
+                "id" : "GAMES",
+                "descricao" : "Archery",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
+                "link" : "file:///android_asset/www/games/Archery.html"
+        },
+
+{
+                "id" : "GAMES",
+                "descricao" : "CandyCrush",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
+                "link" : "file:///android_asset/www/games/CandyCrush.html"
+        },
+{
+                "id" : "GAMES",
+                "descricao" : "EmojiCatcher",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
+                "link" : "file:///android_asset/www/games/EmojiCatcher.html"
+        },
+{
+                "id" : "GAMES",
+                "descricao" : "FruitSlicer",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
+                "link" : "file:///android_asset/www/games/FruitSlicer.html"
+        },
+
+{
+                "id" : "GAMES",
+                "descricao" : "NumberGuessing",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
+                "link" : "file:///android_asset/www/games/NumberGuessing.html"
+        },
+
+{
+                "id" : "GAMES",
+                "descricao" : "Quiz",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
+                "link" : "file:///android_asset/www/games/Quiz.html"
+        },
+
+{
+                "id" : "GAMES",
+                "descricao" : "SimonSays",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
+                "link" : "file:///android_asset/www/games/SimonSays.html"
+        },
+
+{
+                "id" : "GAMES",
+                "descricao" : "TicTacToe",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
+                "link" : "file:///android_asset/www/games/TicTacToe.html"
+        },
+
+{
+                "id" : "GAMES",
+                "descricao" : "SpeedTyping",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
+                "link" : "file:///android_asset/www/games/SpeedTyping.html"
+        },
+
+{
+                "id" : "GAMES",
+                "descricao" : "MemoryCard",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
+                "link" : "file:///android_asset/www/games/MemoryCard.html"
+        },
+
+{
+                "id" : "GAMES",
+                "descricao" : "DiceRoll",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
+                "link" : "file:///android_asset/www/games/DiceRoll.html"
+        },
+
+{
+                "id" : "GAMES",
+                "descricao" : "GameOn",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
+                "link" : "file:///android_asset/www/games/gameon.html"
         }
+
+
+
+
+
+
+
+
+
 ]
