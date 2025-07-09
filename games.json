@@ -32,19 +32,19 @@
 {
                 "id" : "SimonSays",
                 "descricao" : "",
-                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUgJNoGIhSbdct-9hCZpSorZlk1WwkcUbfpw&s",
                 "link" : "file:///android_asset/www/games/SimonSays.html"
         },
 {
                 "id" : "TicTacToe",
                 "descricao" : "",
-                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS2KUkGAf4wbFJyhmkSPxpZGLrQMFCrGcjWg&s",
                 "link" : "file:///android_asset/www/games/TicTacToe.html"
         },
 {
                 "id" : "DiceRoll",
                 "descricao" : "",
-                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
+                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJyTXep1-xDmzkhjoxIXXqaerNVAVEtEthMw&s",
                 "link" : "file:///android_asset/www/games/DiceRoll.html"
         },
 {
