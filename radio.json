@@ -1,0 +1,29 @@
+{
+  "audioFiles": [
+    {
+      "title": "One Billon Loves + 1",
+      "artist": "Artist Name Tune Five",
+      "url": "https://assets.codepen.io/191814/One+billons+plus+one_codepen.mp3"
+    },
+    {
+      "title": "Codepen Serenade",
+      "artist": "Artist Name Tune One",
+      "url": "https://assets.codepen.io/191814/Code+SERENADE.mp3"
+    },
+    {
+      "title": "CSS Magic",
+      "artist": "Artist Name Tune Two",
+      "url": "https://assets.codepen.io/191814/css+codepen+magic+cp.mp3"
+    },
+    {
+      "title": "Love me. Love me.",
+      "artist": "Artist Name Tune Three",
+      "url": "https://assets.codepen.io/191814/love+me+love+me+on+codepen.mp3"
+    },
+     {
+      "title": "Codepen Dance",
+      "artist": "Artist Name Tune Four",
+      "url": "https://assets.codepen.io/191814/Codepen+Dance+Track.mp3"
+    }
+  ]
+}
