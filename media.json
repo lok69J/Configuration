@@ -5,6 +5,26 @@
         
     },
 {
+        "name": "LIVE TV",
+        "url": "file:///android_asset/www/mwebp/live-marhaen.html"
+    },
+  {
+        "name": "VOD - MALAY",
+        "url": "file:///android_asset/www/mwebp/vod-malay.html"
+    },
+  {
+        "name": "VOD - ENGLISH",
+        "url": "file:///android_asset/www/mwebp/vod-english.html"
+    },
+  {
+        "name": "VOD - INDIA",
+        "url": "file:///android_asset/www/mwebp/vod-india.html"
+    },
+   {
+        "name": "VOD - SERIES",
+        "url": "file:///android_asset/www/mwebp/vod-series.html"
+    },
+  {
         "name": "MOVIE",
         "url": "file:///android_asset/www/mwebp/muvi.html"
     },
