@@ -28,8 +28,13 @@
         "name": "MOVIE",
         "url": "file:///android_asset/www/mwebp/muvi.html"
     },
+  {
+        "name": "MY RADIO",
+        "url":"file:///android_asset/www/mwebp/radio.html"
+        
+      },
    {
-        "name": "RADIO",
+        "name": "RADIO HURU HARA",
         "url":"file:///android_asset/www/mwebp/asampedas.html"
         
       },
@@ -37,14 +42,7 @@
         "name": "INFOSEMASAOFFICIAL",
         "url":"https://t.me/s/infosemasaofficial"   
       },
-  {
-        "name": "INFOSEMASAOFFICIAL",
-        "url":"https://t.me/s/infosemasaofficial"   
-      },
-  {
-        "name": "INFOSEMASAOFFICIAL",
-        "url":"https://t.me/s/infosemasaofficial"   
-      },
+
   {
         "name": "INFOSEMASAOFFICIAL",
         "url":"https://t.me/s/infosemasaofficial"   
