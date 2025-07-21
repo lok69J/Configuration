@@ -6,50 +6,45 @@
     },
 {
         "name": "LIVE TV",
-        "url": "file:///android_asset/www/mwebp/live-marhaen.html"
+        "url": "file:///android_asset/www/iptv/live-marhaen.html"
     },
   {
         "name": "VOD - MALAY",
-        "url": "file:///android_asset/www/mwebp/vod-malay.html"
+        "url": "file:///android_asset/www/iptv/vod-malay.html"
     },
   {
         "name": "VOD - ENGLISH",
-        "url": "file:///android_asset/www/mwebp/vod-english.html"
+        "url": "file:///android_asset/www/iptv/vod-english.html"
     },
   {
+        "name": "VOD - CHINESE",
+        "url":"file:///android_asset/www/iptv/vod-chinese.html"   
+      },
+  {
         "name": "VOD - INDIA",
-        "url": "file:///android_asset/www/mwebp/vod-india.html"
+        "url": "file:///android_asset/www/iptv/vod-india.html"
     },
    {
         "name": "VOD - SERIES",
-        "url": "file:///android_asset/www/mwebp/vod-series.html"
+        "url": "file:///android_asset/www/iptv/vod-series.html"
     },
   {
         "name": "MOVIE",
-        "url": "file:///android_asset/www/mwebp/muvi.html"
+        "url": "file:///android_asset/www/iptv/muvi.html"
     },
   {
         "name": "MY RADIO",
-        "url":"file:///android_asset/www/mwebp/radio.html"
+        "url":"file:///android_asset/www/iptv/radio.html"
         
       },
    {
         "name": "RADIO HURU HARA",
-        "url":"file:///android_asset/www/mwebp/asampedas.html"
+        "url":"file:///android_asset/www/iptv/asampedas.html"
         
       },
-{
-        "name": "INFOSEMASAOFFICIAL",
-        "url":"https://t.me/s/infosemasaofficial"   
-      },
-
   {
         "name": "INFOSEMASAOFFICIAL",
         "url":"https://t.me/s/infosemasaofficial"   
-      },
-     {
-        "name": "YOUTUBE",
-        "url":"https://www.youtube.com/@YouTube/shorts"
-        
       }
+     
 ]
