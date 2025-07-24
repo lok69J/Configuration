@@ -1,136 +1,44 @@
 [
-	{
-		"id" : "TV1",
-		"descricao" : "",
-		"imagem" : "https://github.com/MIFNtechnology/siaranMy/raw/main/logo/Tv1.png",
-		"link" : "https://fa.efek.stream/v/rSYcPa1SCP1xfSC"
-	},
-	{
-		"id" : "SlideNum",
-		"descricao" : "",
-		"imagem" : "https://m.media-amazon.com/images/I/51sFGKdcBcL.jpg",
-		"link" : "file:///android_asset/www/games/slidingnumber.html"
-	},
-{
-		"id" : "NINJAi",
-		"descricao" : "",
-		"imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPS-vOglK9GdE2uaRdtIzJ6MUNqP-zTMqfogVPVHo7w&s&ec=73016248",
-		"link" : "file:///android_asset/www/games/ninjai.html"
-	},
-{
-                "id" : "BlocK",
-                "descricao" : "",
-                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbsok8aMe8kpATwD7u17vAwvaVEtaILZmc8Q&s",
-                "link" : "file:///android_asset/www/games/blockgame.html"
-        },
-	{
-                "id" : "Whack",
-                "descricao" : "",
-                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyXteRIxFZtKwl6ZLbFECDh6hh3-q0s2rfYw&s",
-                "link" : "file:///android_asset/www/games/WhackAMole.html"
-        },
-{
-                "id" : "SimonSays",
-                "descricao" : "",
-                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUgJNoGIhSbdct-9hCZpSorZlk1WwkcUbfpw&s",
-                "link" : "file:///android_asset/www/games/SimonSays.html"
-        },
-{
-                "id" : "TicTacToe",
-                "descricao" : "",
-                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS2KUkGAf4wbFJyhmkSPxpZGLrQMFCrGcjWg&s",
-                "link" : "file:///android_asset/www/games/TicTacToe.html"
-        },
-{
-                "id" : "DiceRoll",
-                "descricao" : "",
-                "imagem" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJyTXep1-xDmzkhjoxIXXqaerNVAVEtEthMw&s",
-                "link" : "file:///android_asset/www/games/DiceRoll.html"
-        },
-{
-                "id" : "ParkJam",
-                "descricao" : "",
-                "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/ParkingJamTeaser.jpg?v=0.2-004af2e9",
-                "link" : "https://play.famobi.com/parking-jam"
-        },
-
-{
-                "id" : "SpoT",
-                "descricao" : "",
-                "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/180/SpotTheCatTeaser.jpg?v=0.2-004af2e9",
-                "link" : "https://play.famobi.com/spot-the-cat"
-        },
-{
-                "id" : "Guess",
-                "descricao" : "",
-                "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/120/GuessTheirAnswerTeaser.jpg?v=0.2-004af2e9",
-                "link" : "https://play.famobi.com/guess-their-answer"
-        },
-{
-                "id" : "Sort",
-                "descricao" : "",
-                "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/180/ColorWaterSort3dTeaser.jpg?v=0.2-004af2e9",
-                "link" : "https://play.famobi.com/color-water-sort-3d"
-        },
-
-{
-                "id" : "JigSaw",
-                "descricao" : "",
-                "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/180/JigsawPuzzleClassicTeaser.jpg?v=0.2-004af2e9",
-                "link" : "https://play.famobi.com/jigsaw-puzzle-classic"
-        },
-
-{
-                "id" : "Penalty",
-                "descricao" : "",
-                "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/180/EuroPenaltyCup2021Teaser.jpg?v=0.2-004af2e9",
-                "link" : "https://play.famobi.com/euro-penalty-cup-2021"
-        },
-{
-                "id" : "Darts",
-                "descricao" : "",
-                "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/180/3dDartsTeaser.jpg?v=0.2-004af2e9",
-                "link" : "https://play.famobi.com/3d-darts"
-        },
-
-{
-                "id" : "AirHockey",
-                "descricao" : "",
-                "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/180/3dAirHockeyTeaser.jpg?v=0.2-004af2e9",
-                "link" : "https://play.famobi.com/3d-air-hockey"
-        },
-
-{
-                "id" : "CannonBalls",
-                "descricao" : "",
-                "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/180/CannonBalls3dTeaser.jpg?v=0.2-aa02f4cb",
-                "link" : "https://play.famobi.com/cannon-balls-3d"
-        },
-{
-                "id" : "MotoX3M",
-                "descricao" : "",
-                "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/180/MotoX3mPoolPartyTeaser.jpg?v=0.2-aa02f4cb",
-                "link" : "https://play.famobi.com/moto-x3m-pool-party"
-        },	
-{
-                "id" : "BusParking",
-                "descricao" : "",
-                "imagem" : "https://1pef4tscr4350.h5games.usercontent.goog/v/4f80mr555dv00/marketing/title/busparkingout-html5_480x270.png=w256?v=1",
-                "link" : "https://gamesnacks.com/games/1pef4tscr4350#sc=1752240860462647449-1952067"
-        },	
-{
-                "id" : "8-Ball",
-                "descricao" : "",
-                "imagem" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/180/8BallBilliardsClassicTeaser.jpg?v=0.2-004af2e9",
-                "link" : "https://play.famobi.com/8-ball-billiards-classic"
-        }
-
-
-
-
-
-
-
-
-
+    {
+      "menu_name": "Rumah",
+      "menu_url": "https://www.ketencek.com/en/",
+      "menu_icon": "home",
+      "menu_route":"All_Menu_Web_View"
+    },
+    {
+      "menu_name": "About Us",
+      "menu_url": "https://www.ketencek.com/en/about-us/",
+      "menu_icon": "user",
+      "menu_route":"All_Menu_Web_View"
+    },
+    {
+      "menu_name": "Our Team",
+      "menu_url": "https://www.ketencek.com/en/team/",
+      "menu_icon": "users",
+      "menu_route":"All_Menu_Web_View"
+    },
+    {
+      "menu_name": "Portfolio",
+      "menu_url": "https://www.ketencek.com/en/portfolio/",
+      "menu_icon": "image",
+      "menu_route":"All_Menu_Web_View"
+    },
+    {
+      "menu_name": "References",
+      "menu_url": "https://www.ketencek.com/en/references/",
+      "menu_icon": "address-book",
+      "menu_route":"All_Menu_Web_View"
+    },
+    {
+      "menu_name": "Blogs",
+      "menu_url": "https://www.ketencek.com/en/blog/",
+      "menu_icon": "list",
+      "menu_route":"All_Menu_Web_View"
+    },
+    {
+      "menu_name": "Contact",
+      "menu_url": "",
+      "menu_icon": "phone",
+      "menu_route":"All_Menu_Web_View"
+    },
 ]
