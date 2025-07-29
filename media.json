@@ -29,10 +29,6 @@
         "url": "file:///android_asset/www/iptv/vod-series.html"
     },
   {
-        "name": "MOVIE",
-        "url": "file:///android_asset/www/iptv/muvi.html"
-    },
-  {
         "name": "MY RADIO",
         "url":"file:///android_asset/www/iptv/radio.html"
         
